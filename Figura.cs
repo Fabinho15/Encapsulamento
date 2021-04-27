@@ -22,7 +22,7 @@ public class Figura
 
   public void ImprimirFig()
   {   
-    Console.WriteLine("Area:\t\t{0}", this._area);
-    Console.WriteLine("Perímetro:\t{0}", this._perimetro);
+    Console.WriteLine("Area:\t\t{0:0.0}", this._area);
+    Console.WriteLine("Perímetro:\t{0:0.0}\n===============================", this._perimetro);
   }
 }
